@@ -1,0 +1,98 @@
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 21px;
+  line-height: 33px;
+  margin: 0;
+  color: #444;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 30px rgba(0, 0, 0, 0.5),
+               3px 3px 100px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(images/mars.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: white;
+}
+
+.header-filter {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 200px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 40px;
+}
+
+a {
+  color: #444;
+}
+
+.aside {
+  float: left;
+  margin-right: 30px;
+  margin-left: -200px;
+}
+
+.share {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #444;
+  color: white;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  border-radius: 5px;
+}
+
+.share a {
+  color: white;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.share a:hover {
+  background: #666;
+}
+
+.share li:first-child a:hover {
+  border-radius: 5px 5px 0 0;
+}
+.share li:last-child a:hover {
+  border-radius: 0 0 5px 5px;
+}
+
+.footer {
+  background: #EEE;
+  padding: 20px 0;
+}
+
+.footer a {
+  display: inline-block;
+  padding: 2px 16px;
+  margin: 0px;
+  background: #AAA;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  background: #CCC;
+}
